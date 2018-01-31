@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Search on Baidu",
+  "version": "0.2",
+  "description": "A menu option to search selected text on Baidu",
+  "icons": {
+    "512": "icons/baidu-512.png"
+  },
+  "permissions": [ "contextMenus" ],
+  "background": {
+    "scripts": [ "search.js" ]
+  }
+}
